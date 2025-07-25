@@ -142,13 +142,13 @@ template {
   display: none;
 }
 @font-face {
-  font-family: "Rubik-Regular";
+  font-family: "ProbaPro";
   src: url(../fonts/Rubik-Regular.woff2), url(../fonts/Rubik-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "Rubik-Medium";
+  font-family: "ProbaPro";
   src: url(../fonts/Rubik-Medium.woff2), url(../fonts/Rubik-Medium.woff);
   font-weight: 400;
   font-style: normal;
@@ -167,7 +167,7 @@ template {
   overflow: hidden;
 }
 body {
-  font-family: "Rubik-Regular", "Arial", sans-serif;
+  font-family: "ProbaPro", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   min-width: 320px;
