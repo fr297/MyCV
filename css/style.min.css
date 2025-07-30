@@ -998,7 +998,7 @@ body {
 }
 .portfolio__item {
   background: #fff;
-  height: 300px;
+  height: 266px;
   opacity: 0.8;
   -webkit-transition: 1s;
   transition: 1s;
@@ -1007,26 +1007,35 @@ body {
 .portfolio__item:first-child {
   width: 470px;
   margin-right: 45px;
-  background: url(../img/jpg/Device.jpg);
+  background-image: image-set(
+    url("../img/jpg/CommingSoon.jpeg") 1x,
+    url("../img/jpg/CommingSoon.jpeg") 2x
+  );
+  background-size: contain;
+  background-position-x: center;
+  background-repeat: no-repeat;
 }
 .portfolio__item:nth-child(2) {
   width: 370px;
   margin-right: 45px;
-  background: url(../img/png/pobytok.png);
 }
 .portfolio__item:nth-child(3) {
   width: 270px;
-  background: url(../img/jpg/borodinskiy.jpg);
+  background-image: image-set(
+    url("../img/jpg/amongus.jpeg") 1x,
+    url("../img/jpg/amongus.jpeg") 2x
+  );
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
 }
 .portfolio__item:nth-child(4) {
   width: 670px;
   margin: 35px 60px 0 0;
-  background: url(../img/jpg/catenergy.jpg);
 }
 .portfolio__item:nth-child(5) {
   width: 470px;
   margin: 35px 0 0;
-  background: url(../img/jpg/codemagick.jpg);
 }
 .portfolio__item:focus,
 .portfolio__item:hover {
