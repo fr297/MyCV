@@ -1064,8 +1064,13 @@ body {
   .portfolio__item:first-child {
     width: 399px;
     margin-right: 35px;
-    background: url(../img/jpg/Device-tablet.jpg) no-repeat;
-    background-position-x: -17px;
+    background-image: image-set(
+      url("../img/jpg/commingSoonTablet.jpg") 1x,
+      url("../img/jpg/commingSoonTablet.jpg") 2x
+    );
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
   }
   .portfolio__item:nth-child(2) {
     width: 301px;
@@ -1083,7 +1088,6 @@ body {
     width: 250px;
     top: 30px;
     right: -114px;
-    background-position-x: -13px;
   }
   .portfolio__item:nth-child(4) {
     width: 710px;
@@ -1106,19 +1110,33 @@ body {
     margin: 0 0 20px;
   }
   .portfolio__item:first-child {
-    background: url(../img/jpg/Device-mobile.jpg) no-repeat;
-    height: 180px;
+    background-image: image-set(
+      url("../img/jpg/commingSoonMobile.jpg") 1x,
+      url("../img/jpg/commingSoonMobile.jpg") 2x
+    );
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 330px;
   }
   .portfolio__item:nth-child(2) {
-    background: url(../img/jpg/pobytok-mobile.jpg) no-repeat;
+    background: url(../img/jpg/) no-repeat;
     height: 227px;
   }
   .portfolio__item:nth-child(3) {
     background-position-x: 5px;
     background-repeat: no-repeat;
+    background-image: image-set(
+      url("../img/jpg/amongUsMobile.jpg") 1x,
+      url("../img/jpg/amongUsMobile.jpg") 2x
+    );
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
   }
   .portfolio__item:nth-child(4) {
-    background: url(../img/jpg/catenergy-mobile.jpg) no-repeat;
+    background: url(../img/jpg/) no-repeat;
     height: 206px;
   }
   .portfolio__item:nth-child(5) {
