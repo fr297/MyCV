@@ -1141,6 +1141,10 @@ body {
   }
   .portfolio__item:nth-child(5) {
     background-position-x: -90px;
+    background-image: image-set(
+      url("../img/png/pavlov.png") 1x,
+      url("../img/png/pavlov.png") 2x
+    );
   }
   .portfolio__item {
     position: static;
