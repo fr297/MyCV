@@ -1036,6 +1036,14 @@ body {
 .portfolio__item:nth-child(5) {
   width: 470px;
   margin: 35px 0 0;
+  background-image: image-set(
+    url("../img/png/pavlov.png") 1x,
+    url("../img/png/pavlov.png") 2x
+  );
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
 }
 .portfolio__item:focus,
 .portfolio__item:hover {
@@ -1082,7 +1090,14 @@ body {
   .portfolio__item:nth-child(5) {
     width: 450px;
     top: -545px;
-    background-position-y: -23px;
+    background-image: image-set(
+      url("../img/png/pavlov.png") 1x,
+      url("../img/png/pavlov.png") 2x
+    );
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
   }
   .portfolio__item:nth-child(3) {
     width: 250px;
@@ -1140,11 +1155,14 @@ body {
     height: 206px;
   }
   .portfolio__item:nth-child(5) {
-    background-position-x: -90px;
     background-image: image-set(
-      url("../img/png/pavlov.png") 1x,
-      url("../img/png/pavlov.png") 2x
+      url("../img/png/pavlov2.png") 1x,
+      url("../img/png/pavlov2.png") 2x
     );
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
   }
   .portfolio__item {
     position: static;
