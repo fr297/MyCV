@@ -1132,7 +1132,7 @@ body {
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
-    height: 370px;
+    height: 440px;
   }
   .portfolio__item:nth-child(2) {
     background: url(../img/jpg/) no-repeat;
@@ -1161,7 +1161,7 @@ body {
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 440px;
   }
   .portfolio__item {
     position: static;
