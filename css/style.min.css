@@ -978,7 +978,7 @@ body {
 }
 .portfolio__wrapper {
   padding-top: 65px;
-  padding-bottom: 115px;
+  padding-bottom: 50px;
 }
 .portfolio__title {
   color: #fff;
@@ -1032,6 +1032,14 @@ body {
 .portfolio__item:nth-child(4) {
   width: 670px;
   margin: 35px 60px 0 0;
+  background-image: image-set(
+    url("../img/png/magnifico.png") 1x,
+    url("../img/png/magnifico.png") 2x
+  );
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
 }
 .portfolio__item:nth-child(5) {
   width: 470px;
@@ -1076,14 +1084,10 @@ body {
       url("../img/jpg/commingSoonTablet.jpg") 1x,
       url("../img/jpg/commingSoonTablet.jpg") 2x
     );
-    background-size: cover;
-    background-position-x: center;
-    background-repeat: no-repeat;
   }
   .portfolio__item:nth-child(2) {
     width: 301px;
-    background: url(../img/jpg/pobytok-tablet.jpg) no-repeat;
-    background-position-x: -30px;
+
     top: -270px;
     right: -409px;
   }
@@ -1094,10 +1098,6 @@ body {
       url("../img/png/pavlov.png") 1x,
       url("../img/png/pavlov.png") 2x
     );
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    background-repeat: no-repeat;
   }
   .portfolio__item:nth-child(3) {
     width: 250px;
@@ -1105,10 +1105,12 @@ body {
     right: -114px;
   }
   .portfolio__item:nth-child(4) {
+    background-image: image-set(
+      url("../img/png/magnifico.png") 1x,
+      url("../img/png/magnifico.png") 2x
+    );
     width: 710px;
     margin: 0;
-    background: url(../img/jpg/catenergy-tablet.jpg);
-    background-position-x: -40px;
     top: 60px;
   }
 }
@@ -1122,17 +1124,15 @@ body {
   .portfolio__item:nth-child(4),
   .portfolio__item:nth-child(5) {
     width: 100%;
-    margin: 0 0 20px;
+    margin: 0 0 40px;
   }
   .portfolio__item:first-child {
     background-image: image-set(
       url("../img/jpg/commingSoonMobile.jpg") 1x,
       url("../img/jpg/commingSoonMobile.jpg") 2x
     );
+    height: 540px;
     background-size: cover;
-    background-position-x: center;
-    background-repeat: no-repeat;
-    height: 440px;
   }
   .portfolio__item:nth-child(2) {
     background: url(../img/jpg/) no-repeat;
@@ -1149,8 +1149,11 @@ body {
     background-position-y: center;
   }
   .portfolio__item:nth-child(4) {
-    background: url(../img/jpg/) no-repeat;
-    height: 206px;
+    background-image: image-set(
+      url("../img/png/magnifico2.png") 1x,
+      url("../img/png/magnifico2.png") 2x
+    );
+    height: 620px;
   }
   .portfolio__item:nth-child(5) {
     background-image: image-set(
@@ -1162,6 +1165,7 @@ body {
     background-position-y: center;
     background-repeat: no-repeat;
     height: 440px;
+    background-position-x: center;
   }
   .portfolio__item {
     position: static;
