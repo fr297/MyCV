@@ -242,7 +242,7 @@ body {
 }
 .page-header__greeting,
 .page-header__greeting-description {
-  margin: auto;
+  margin: 0 0 50px 0;
   color: #fff;
   text-align: center;
 }
